@@ -104,16 +104,13 @@ module tb();
  imageProcessTop dut(
     .axi_clk(clk),
     .axi_reset_n(reset),
-    //slave interface
     .i_data_valid(imgDataValid),
     .i_data(imgData),
     .mode(mode),
     .o_data_ready(),
-    //master interface
     .o_data_valid(outDataValid),
     .o_data(outData),
     .i_data_ready(1'b1),
-    //interrupt
     .o_intr(intr)
 );   
     
