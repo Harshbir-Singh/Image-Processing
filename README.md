@@ -8,13 +8,13 @@ Project Features:
 
 - Convolution Modes:
 
-  00: Mode 0 (e.g., Edge Detection)
+  00: Mode 0 (Edge Detection)
 
-  01: Mode 1 (e.g., Blur)
+  01: Mode 1 (Box Blur)
 
-  10: Mode 2 (e.g., Sharpen)
+  10: Mode 2 (Emboss 3D effect)
 
-  11: Mode 3 (e.g., Custom Filter)
+  11: Mode 3 (Unsharp Mask)
 
 - Fully simulated with a testbench demonstrating functional correctness of all modes.
 
