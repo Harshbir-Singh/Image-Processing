@@ -37,5 +37,7 @@ Acts as an output FIFO, buffering processed pixel data until the DMA controller 
 - imageProcessTop.v
 Top-level integration module that connects all submodules, handles synchronization, and interfaces with external components for data input/output.
 
+<img width="548" height="272" alt="image" src="https://github.com/user-attachments/assets/87028c52-5528-400e-944a-af4bd1f7d313" />
+
 <img width="1720" height="561" alt="image" src="https://github.com/user-attachments/assets/8d3c3d01-2395-4adf-8047-b05f81a74147" />
 
