@@ -22,19 +22,19 @@ Project Features:
 
 Verilog Modules:
 
-lineBuffer.v
+- lineBuffer.v
 Implements line buffer behavior with 512-length registers, supporting pixel-wise read/write operations for 8-bit grayscale values.
 
-conv.v
+- conv.v
 Performs the core 3x3 convolution operation, receiving pixel data from the line buffers and applying the selected kernel based on mode selection.
 
-imageControl.v
+- imageControl.v
 Manages three line buffers to handle vertical data shifting, ensuring that the convolution module always has access to a valid 3x3 window of pixels.
 
-outputBuffer (FIFO Generator IP Core)
+- outputBuffer (FIFO Generator IP Core)
 Acts as an output FIFO, buffering processed pixel data until the DMA controller is ready to fetch the next data chunk.
 
-imageProcessTop.v
+- imageProcessTop.v
 Top-level integration module that connects all submodules, handles synchronization, and interfaces with external components for data input/output.
 
 
