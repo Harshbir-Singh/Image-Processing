@@ -31,7 +31,7 @@ Performs the core 3x3 convolution operation, receiving pixel data from the line 
 - imageControl.v
 Manages three line buffers to handle vertical data shifting, ensuring that the convolution module always has access to a valid 3x3 window of pixels.
 
-- outputBuffer (FIFO Generator IP Core)
+- outputBuffer.v (FIFO Generator)
 Acts as an output FIFO, buffering processed pixel data until the DMA controller is ready to fetch the next data chunk.
 
 - imageProcessTop.v
