@@ -1,5 +1,5 @@
 # Image-Processing
-This repository contains a Verilog-based image processing project designed using Xilinx Vivado Design Suite, targeting the AMD Zynq UltraScale+ MPSoC ZCU104 development board. The system processes a 512x512 grayscale image by applying a 3x3 convolution kernel, selectable through testbench-driven modes.
+This repository contains a Verilog-based image processing project designed using Xilinx Vivado Design Suite, targeting the AMD Zynq UltraScale+ MPSoC ZCU104, PYNQ-Z2 development board. The system processes a 512x512 grayscale image by applying a 3x3 convolution kernel, selectable through testbench-driven modes.
 
 Project Features:
 - Image Size: 512x512 pixels (grayscale,.bmp, 8-bit depth).
